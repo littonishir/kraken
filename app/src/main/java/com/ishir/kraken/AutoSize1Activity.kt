@@ -1,15 +1,12 @@
 package com.ishir.kraken
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class AutoSize1Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        startActivity(Intent(this,AutoSize1Activity::class.java))
-        print("123")
+        setContentView(R.layout.activity_auto_size1)
     }
 }

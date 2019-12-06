@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".AutoSize1Activity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mImageView0"
+        android:layout_width="match_parent"
+        android:layout_height="217.5mm"
+        android:src="@mipmap/login_top_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15mm"
+        android:layout_marginTop="36.5mm"
+        android:src="@mipmap/login_nav_guanbi"
+        app:layout_constraintStart_toStartOf="@+id/mImageView0"
+        app:layout_constraintTop_toTopOf="@+id/mImageView0" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="83.5mm"
+        android:src="@mipmap/my_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mImageView0" />
+
+    <EditText
+        android:id="@+id/mEditText0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37mm"
+        android:layout_marginTop="48.5mm"
+        android:layout_marginEnd="37mm"
+        android:background="@null"
+        android:hint="请输入新手机号码"
+        android:textColorHint="#999999"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mImageView0" />
+
+    <View
+        android:id="@+id/mView0"
+        android:layout_width="match_parent"
+        android:layout_height="0.5mm"
+        android:layout_marginStart="37mm"
+        android:layout_marginTop="14.5mm"
+        android:layout_marginEnd="37mm"
+        android:background="#EBECEE"
+        app:layout_constraintEnd_toEndOf="@+id/mEditText0"
+        app:layout_constraintStart_toStartOf="@+id/mEditText0"
+        app:layout_constraintTop_toBottomOf="@+id/mEditText0" />
+
+    <EditText
+        android:id="@+id/mEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37mm"
+        android:layout_marginTop="14.5mm"
+        android:layout_marginEnd="37mm"
+        android:background="@null"
+        android:hint="请输入验证码"
+        android:textColorHint="#999999"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mView0" />
+
+    <View
+        android:id="@+id/mView1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5mm"
+        android:layout_marginStart="37mm"
+        android:layout_marginTop="14.5mm"
+        android:layout_marginEnd="37mm"
+        android:background="#EBECEE"
+        app:layout_constraintEnd_toEndOf="@+id/mEditText1"
+        app:layout_constraintStart_toStartOf="@+id/mEditText1"
+        app:layout_constraintTop_toBottomOf="@+id/mEditText1" />
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="300mm"
+        android:layout_height="39mm"
+        android:layout_marginTop="55.5mm"
+        android:background="@drawable/selector_login"
+        android:enabled="true"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mView1" />
+
+    <TextView
+        android:layout_marginTop="25mm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mButton"
+        android:textColor="#999999"
+        android:textSize="10sp"
+        android:text="登陆即代表同意《用户服务协议》"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginBottom="15mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello ishir"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
